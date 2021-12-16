@@ -1,0 +1,102 @@
+body{
+    background: url("./images/pattern-background-desktop.svg") no-repeat;
+    background-color: #CAD8FE;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+}
+
+.card{
+    height: 600px;
+    width: 450px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 5%;
+}
+
+.header{
+    width:100%;
+    border-top-right-radius: 15px ;
+    border-top-left-radius: 15px ;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 200;
+    width: 80%;
+    align-items: center;
+    margin: 20px 10%;
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:hsl(225, 100%, 98%);
+    width: 80%;
+    border-radius: 10px;
+    height: 80px;
+    margin: 0px 10%;
+    font-size: 12px ;
+}
+
+.plan_left{
+    display: flex;
+    align-items: center;
+}
+.plan img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.plan a{
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+
+.buttons{
+    font-size: 16px ;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-content: center;
+    justify-content: space-between;
+    height: 80px;
+    margin: 10px 10%;
+}
+
+.buttons button{
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 5px;
+    height: 30px;
+    background-color: white;
+    color: grey;
+}
+
+button:hover{
+    background-color:hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 2px 5px 2px 1px rgba(209, 207, 207, 90);
+}
+
+.cancel{
+
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-bottom: 10px; 
+}
